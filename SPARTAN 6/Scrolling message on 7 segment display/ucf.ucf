@@ -1,0 +1,13 @@
+NET "data<0>" LOC = "p43" ;
+NET "data<1>" LOC = "p45" ;
+NET "data<2>" LOC = "p47" ;
+NET "data<3>" LOC = "p50" ;
+NET "data<4>" LOC = "p55" ;
+NET "data<5>" LOC = "p74" ;
+NET "data<6>" LOC = "p78" ;
+NET "data<7>" LOC = "p80" ;
+NET "sel<0>" LOC = "p79" ;
+NET "sel<1>" LOC = "p75" ;
+NET "sel<2>" LOC = "p56" ;
+NET "clk" LOC = "p126" ;
+TIMESPEC TS_CLK = PERIOD "clk" 100 MHz HIGH 50%;
