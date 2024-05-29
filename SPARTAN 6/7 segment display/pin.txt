@@ -1,0 +1,3 @@
+Connections
+1) Connect pin CN23 with CN5 
+2) Connect pin CN16 with CN5A
