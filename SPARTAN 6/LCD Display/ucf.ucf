@@ -1,0 +1,15 @@
+NET "clk" LOC = P126;
+TIMESPEC TS_CLK = PERIOD "CLK" 100 MHz HIGH 50%;
+NET "lcd_rs"                    LOC = P51      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L31P_GCLK31_D14_2      	Sch = GPIO-P22
+NET "lcd_rw"                    LOC = P56      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L30P_GCLK1_D13_2	  	    Sch = GPIO-P19 
+NET "lcd_e"                     LOC = P75      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L74P_AWAKE_1			    Sch = GPIO-P26
+
+NET "data[0]"                   LOC = P43      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L62N_D6_2       	        Sch = GPIO-N23 
+NET "data[1]"                   LOC = P45      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L49N_D4_2	   	            Sch = GPIO-N25 
+NET "data[2]"                   LOC = P47      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L48N_RDWR_B_VREF_2	  	    Sch = GPIO-N24 
+NET "data[3]"                   LOC = P50      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L31N_GCLK30_D15_2	  	    Sch = GPIO-N22 
+NET "data[4]"                   LOC = P55      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L30N_GCLK0_USERCCLK_2  	Sch = GPIO-N19 
+NET "data[5]"                   LOC = P74      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L74N_DOUT_BUSY_1       	Sch = GPIO-N26 
+NET "data[6]"                   LOC = P78      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L47N_1	   		            Sch = GPIO-N27
+NET "data[7]"                   LOC = P80      | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;    # IO_L46N_1 	   		        Sch = GPIO-N28
+
