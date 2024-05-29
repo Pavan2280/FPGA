@@ -1,1 +1,4 @@
+Connections
+1) Connect CN23 to CN13
+2) Connect VGA cable to monitor to see output 
 
